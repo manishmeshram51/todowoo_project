@@ -1,0 +1,1 @@
+# just basic todo app for learning django.
