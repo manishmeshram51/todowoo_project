@@ -1,0 +1,7 @@
+
+# to login and generate the token
+curl -X POST http://localhost:8000/api/login -H 'Content-Type: application/json' -d '{"username":"manish","password":"Manish@18"}'
+
+# to get the todos using only token
+curl http://localhost:8000/api/todos -H 'Authorization: Token d95fc9173a7d2056eb4c9594a939b4408569b160'
+
