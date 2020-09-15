@@ -1,4 +1,8 @@
 venv/
+api/__pycache__/
+todo/__pycache__/
+todowoo/__pycache__/
+
 *.log
 *.pot
 *.pyc
